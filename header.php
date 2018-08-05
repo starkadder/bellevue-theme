@@ -14,7 +14,7 @@
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Raleway Font --> 
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->								
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/band.css" rel="stylesheet">

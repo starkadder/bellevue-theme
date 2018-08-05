@@ -1,9 +1,13 @@
 <!--  Sidebar -->
 
         <div class="col-sm-3 col-sm-offset-1 band-sidebar">
-          <div class="sidebar-module">
-                <?php echo do_shortcode("[swpm_login_link]"); ?>
-           </div>
+
+	   <?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
+	       <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		  <?php dynamic_sidebar( 'home_right_1' ); ?>
+	   </div><!-- #primary-sidebar -->
+	   <?php endif; ?>
+
           <div class="sidebar-module">
             <a href="<?php echo wp_login_url(); ?>">Site Admin</a>
            </div>
@@ -26,7 +30,7 @@
               <li><a href="#">Twitter</a></li>
               -->
               <li>
-                  <a href="http://www.facebook.com/group.php?gid=123858433381&amp;ref=ts&amp;v=info">
+                  <a href="https://www.facebook.com/group.php?gid=123858433381&amp;ref=ts&amp;v=info">
                       <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook1.png" width="35" height="35" />
                   </a>
               </li>
